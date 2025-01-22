@@ -8,6 +8,18 @@ import lombok.Getter;
 //@AllArgsConstructor
 //@Getter
 public class AccountDto {
+    public Long getId() {
+        return id;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
     public AccountDto(Long id, String accountHolderName, double balance) {
         this.id = id;
         this.accountHolderName = accountHolderName;
