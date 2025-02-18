@@ -8,6 +8,9 @@ import lombok.Getter;
 //@AllArgsConstructor
 //@Getter
 public class AccountDto {
+    public AccountDto() {
+    }
+
     public Long getId() {
         return id;
     }
